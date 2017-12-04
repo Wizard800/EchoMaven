@@ -18,6 +18,10 @@ ArrayList<String> stack;
 			return "";
 		
 	}
+	public String pop() {
+		// TODO Auto-generated method stub
+		return stack.get(0);
+	}
 	
 
 }

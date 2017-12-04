@@ -24,4 +24,12 @@ public class StackTest {
 		String actual = stack.push(expected);
 		assertFalse(stack.isEmpty());
 	}
+	@Test
+	public void pushPopIsEmptyTest() {
+		Stack stack = new Stack();
+		String expected = "Hello, World!";
+		stack.push(expected);
+		String actual = stack.pop();
+		assertFalse(stack.isEmpty());
+	}
 }
