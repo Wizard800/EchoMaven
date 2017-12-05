@@ -20,6 +20,7 @@ ArrayList<String> stack;
 	public String pop() {
 		// TODO Auto-generated method stub
 		return stack.remove(0).toString();
+		
 	}
 	
 
