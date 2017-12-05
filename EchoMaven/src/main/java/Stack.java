@@ -12,7 +12,7 @@ ArrayList<String> stack;
 
 	public String push(String expected) {
 		// TODO Auto-generated method stub
-		stack.add(expected);
+		stack.add(0,expected);
 		return expected;
 
 		
