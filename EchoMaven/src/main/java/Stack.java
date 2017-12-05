@@ -12,10 +12,9 @@ ArrayList<String> stack;
 
 	public String push(String expected) {
 		// TODO Auto-generated method stub
-		if (stack.add(expected))
-			return expected;
-		else
-			return "";
+		stack.add(0,expected);
+		return expected;
+
 		
 	}
 	public String pop() {

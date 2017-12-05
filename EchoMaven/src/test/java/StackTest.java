@@ -32,4 +32,14 @@ public class StackTest {
 		String actual = stack.pop();
 		assertFalse(stack.isEmpty());
 	}
+	@Test
+	public void multiPushPopTest() {
+		Stack stack = new Stack();
+		String expected = "Item 1";
+		String expected2 = "Item 2";
+		stack.push(expected);
+		stack.push(expected2);
+		String actual = stack.pop();
+		assertEquals("We should get " + expected2, expected2, actual);
+	}
 }
