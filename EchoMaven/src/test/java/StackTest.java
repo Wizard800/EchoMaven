@@ -30,7 +30,7 @@ public class StackTest {
 		String expected = "Hello, World!";
 		stack.push(expected);
 		String actual = stack.pop();
-		assertFalse(stack.isEmpty());
+		assertTrue(stack.isEmpty());
 	}
 	@Test
 	public void multiPushPopTest() {
